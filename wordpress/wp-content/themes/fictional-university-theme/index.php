@@ -8,4 +8,12 @@ function aboutMe ($name, $color){
 aboutMe('John', 'blue');
 aboutMe('Jack', 'red');
 
+
+$names= array ("Kyobe", "Ronald", "Jodan", "Kibilige", "Alice");
+$count = 0;
+
+ while ($count< count($names)) {
+     echo "<li>My name is $names[$count]</li>";
+     $count++;
+ }
 ?>
