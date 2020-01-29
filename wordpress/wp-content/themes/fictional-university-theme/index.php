@@ -9,7 +9,7 @@ aboutMe('John', 'blue');
 aboutMe('Jack', 'red');
 
 
-$names= array ("Kyobe", "Ronald", "Jodan", "Kibilige", "Alice");
+$names= array ('Kyobe', 'Ronald', 'Jodan', 'Kibilige', 'Alice');
 $count = 0;
 
  while ($count< count($names)) {
