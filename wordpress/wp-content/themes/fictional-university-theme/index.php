@@ -1,19 +1,11 @@
-
 <?php
+while (have_posts()) {
+    the_post(); ?>
+    <h1><a href= "<?php the_permalink() ?>"><?php the_title() ?></a></h1>
+    <?php the_content() ?>
+    <hr>
+    <?php 
 
-function aboutMe ($name, $color){
-    echo "<p>My name is $name and i like color $color.</p>";
 }
 
-aboutMe('John', 'blue');
-aboutMe('Jack', 'red');
-
-
-$names= array ('Kyobe', 'Ronald', 'Jodan', 'Kibilige', 'Alice');
-$count = 0;
-
- while ($count< count($names)) {
-     echo "<li>My name is $names[$count]</li>";
-     $count++;
- }
 ?>
